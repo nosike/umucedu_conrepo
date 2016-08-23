@@ -10,7 +10,7 @@ service { 'ntpd':
   before    => Package[ 'ntp' ],
 }
 
-file { '/etc/ntp.conf':
+file { '/root/ntp.conf':
   ensure    => file,
   owner     => 'root',
   group     => 'root',
