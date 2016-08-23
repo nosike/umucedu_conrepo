@@ -16,7 +16,7 @@ file { '/root/ntp.conf':
   owner     => 'root',
   group     => 'root',
   mode      => '0644',
-  content   => 'puppet://modules/umucedu_conrepo/dev-ntp.conf',
+  content   => 'puppet:///modules/umucedu_conrepo/dev-ntp.conf',
   notify    => Service[ 'ntpd' ],
 }
 }
