@@ -1,5 +1,6 @@
 
-# This is the manifests init.pp file for class umucedu_conrepo, please do not modify.
+# This is the manifests init.pp file for class umucedu_conrepo,
+# please do not modify.
 class umucedu_conrepo {
 
 package { 'ntp':
